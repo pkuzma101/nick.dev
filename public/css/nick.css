@@ -1,0 +1,46 @@
+/* Index */
+
+.still-background {
+	width: 100%;
+	height: 1000px;
+	background: url('/stills/kidney_stopwatch.jpg');
+	color: white;
+}
+
+.title-box {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+#title-box-name {
+	font-size: 4em;
+}
+
+#title-box-tagline {
+	font-size: 2.0em;
+}
+
+
+
+/* ------ */
+
+/* Navbar */
+
+@media (min-width: 768px) {
+	.navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+}
+
