@@ -87,14 +87,20 @@
 
 /* Stills Page */
 
+#slide-container {
+	height: 50%;
+	width: 70%;
+}
+
 .slide-image {
 	height: 100%;
 	width: 100%;
 }
 
 .slide-thumbnail {
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
+	padding: 10px 10px 10px 10px;
 }
 
 /* Navbar */
