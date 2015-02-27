@@ -30,9 +30,9 @@ class HomeController extends BaseController {
 		return View::make('video');
 	}
 
-	public function showStills()
+	public function stills()
 	{
-		return View::make('stills');
+		return View::make('stills_page');
 	}
 
 	public function showContact()

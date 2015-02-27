@@ -13,10 +13,10 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::get('stills', 'HomeController@showStills');
+Route::get('stills', 'HomeController@stills');
 Route::get('video', 'HomeController@showVideo');
 Route::get('contact', 'HomeController@showContact');
 Route::get('about', 'HomeController@showAbout');
-// Route::get('video', 'HomeController@showVideo');
+
 
 

@@ -15,7 +15,7 @@
 	        <ul class="nav navbar-nav">
 	            <li><a href="/">home</a></li>
 	            <li><a href="{{ action('HomeController@showVideo') }}">video</a></li>
-	            <li><a href="{{ action('HomeController@showStills') }}">stills</a></li>
+	            <li><a href="{{ action('HomeController@stills') }}">stills</a></li>
 	            <li><a href="{{ action('HomeController@showAbout') }}">me</a></li>
 	            <li><a href="{{ action('HomeController@showContact') }}">contact</a></li>
 	            <li><a href="">blog</a></li>
