@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.bxslider').bxSlider({
-		pagerCustom: '#bx-pager'
+	$('.popup-link').magnificPopup({
+		type: 'image'
 	});
 });

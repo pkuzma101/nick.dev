@@ -87,20 +87,18 @@
 
 /* Stills Page */
 
-#slide-container {
-	height: 50%;
-	width: 70%;
+#stills-title-container {
+	text-align: center;
+	padding-bottom: 20px;
 }
 
-.slide-image {
-	height: 100%;
-	width: 100%;
+#thumbnail-container {
+	padding-top: 30px;
 }
 
-.slide-thumbnail {
-	height: 150px;
-	width: 150px;
-	padding: 10px 10px 10px 10px;
+.stills-thumbnail {
+	height: 250px;
+	width: 250px;
 }
 
 /* Navbar */
@@ -118,6 +116,10 @@
 
     .navbar .navbar-nav a {
     	font-size: 1.5em;
+    }
+
+    .navbar {
+    	margin-bottom: 0px;
     }
 
 }
